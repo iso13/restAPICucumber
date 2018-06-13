@@ -1,0 +1,165 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 25140656,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.startUp(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 344124878,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseAPISteps.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Base API",
+        "description": "",
+        "id": "api;base-api",
+        "after": [
+          {
+            "result": {
+              "duration": 1399875,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1710874627,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I perform a GET request \"people/1/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "people/1/",
+                  "offset": 25
+                }
+              ],
+              "location": "BaseAPISteps.i_perform_a_GET_request(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 137800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I perform a POST request \"\" with the following json \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 26
+                },
+                {
+                  "val": "",
+                  "offset": 53
+                }
+              ],
+              "location": "BaseAPISteps.i_perform_a_POST_request_with_the_following_json(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86805,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I perform a PUT request \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 25
+                }
+              ],
+              "location": "BaseAPISteps.i_perform_a_PUT_request(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90847,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I perform a DELETE request \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 28
+                }
+              ],
+              "location": "BaseAPISteps.i_perform_a_DELETE_request(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25699103,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the response code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "BaseAPISteps.the_response_code_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 554807502,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the response should match the following schema \"starwarsschema.json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "starwarsschema.json",
+                  "offset": 48
+                }
+              ],
+              "location": "BaseAPISteps.the_response_should_match_the_following_schema(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "API",
+    "description": "  As an Engr\n  We need to test integration scenarios\n  So we can ensure communication is set up",
+    "id": "api",
+    "keyword": "Feature",
+    "uri": "features/basicApi.feature"
+  }
+]

@@ -1,0 +1,5 @@
+com/step_definitions/BaseAPISteps.class
+com/utils/PropertiesHelper.class
+com/RunCukesTest.class
+com/step_definitions/Hooks.class
+com/utils/CucumberLog.class
